@@ -12,6 +12,9 @@ from django.http import HttpResponse
 
 # we are looking for users to use
 def index(request):
-
-    return HttpResponse('ok')
+    # simulate data search
+    context={
+        'name':'christmas soon,click and get suprise!'
+    }
+    return render(request,'book/index.html',context=context)
 
