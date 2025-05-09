@@ -12,9 +12,6 @@ from django.http import HttpResponse
 
 # we are looking for users to use
 def index(request):
-    pass
 
-# def index(request)
-#
-#     return HttpResponse('ok')
+    return HttpResponse('ok')
 
